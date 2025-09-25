@@ -41,21 +41,6 @@ This project focuses on **predicting short-term energy demand** and **detecting 
    * Trigger SMS/Email notifications for detected anomalies.
    * Display forecasts & anomalies in a live dashboard.
 
-## 📂 Project Structure
-
-```
-Energy-Forecasting-Anomaly-Detection/
-│── data/                # Raw & preprocessed datasets  
-│── notebooks/           # Jupyter notebooks for EDA & experiments  
-│── src/  
-│   ├── preprocessing.py # Data cleaning & feature engineering  
-│   ├── model.py         # LSTM model training & prediction  
-│   ├── anomaly.py       # Anomaly detection logic  
-│   ├── alerts.py        # Email/SMS notification handler  
-│── app.py               # Streamlit/Flask app  
-│── requirements.txt     # Dependencies  
-│── README.md            # Project documentation  
-```
 
 ## ⚡ Example Output
 
